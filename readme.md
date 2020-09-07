@@ -1,5 +1,10 @@
-# Procesverslag
-**Auteur:** -jouw naam-
+Procesverslag
+Chehlaa Hadi 
+
+Mijn niveau is de blauwe piste. Ik maak graag mijn website met extra aandacht voor de surface laag. Ik kies ervoor om een bestaande website te namaken, namelijk: https://www.queentarzi.com/nl/ 
+
+
+
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 

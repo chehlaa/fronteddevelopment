@@ -3,7 +3,7 @@ Chehlaa Hadi
 
 Mijn niveau is de blauwe piste. Ik maak graag mijn website met extra aandacht voor de surface laag. Ik kies ervoor om een bestaande website te namaken, namelijk: https://www.queentarzi.com/nl/ 
 
-
+Ik heb geprobeerd de QueenTarzi website na te coderen, als eerst deed ik dat op een desktop versie, opzich kwam het er wel mooi uit te zien, maar daarna begreep ik dat het voor een mobiele device moest zijn en de code die ik had gemaakt, werkte niet meer zo lekker. Het menu komt er raar uit te zien en ik krijg de foto's niet op de juiste plek. :(
 
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.

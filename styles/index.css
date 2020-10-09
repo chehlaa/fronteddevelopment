@@ -1,0 +1,416 @@
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+  
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+}
+  
+.item-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    color: #ebb3bc;
+    text-decoration: none;
+}
+  
+.category-item-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #ebb3bc;
+    text-decoration: none;
+}
+  
+.category-item-subtext {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.7em;
+    color: #ebb3bc;
+    text-decoration: none;
+}
+  
+.readmore-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #fff;
+    text-decoration: none;
+  
+    margin-top: 1.5em;
+}
+
+.benefit-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: #ebb3bc;
+    text-decoration: none;
+    margin: 0.8em 0;
+}
+
+.cta-heading {
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.3em;
+    color: #ebb3bc;
+    margin-top: 1.5em;
+}
+
+.email-input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(143, 143, 143);
+    font-size: 0.8em;
+    padding: 1em 0.8em;
+    border: 1px solid rgba(0, 0, 0, 0.085);
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.form-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-style: italic;
+    font-size: 0.8em;
+
+    background-color: #ebb3bc;
+    border: none;
+    padding: 1em 1em;
+    border-radius: 0.4em;
+    width: 100%;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* || Main Wrapper */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas:
+        'hero-banner'
+        'essential-products'
+        'home-categories'
+        'home-blog'
+        'home-benefits'
+        'cta'       
+    ;
+}
+
+
+
+
+/* || Hero Banner */
+.hero-banner {
+    grid-area: hero-banner;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner > img {
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* || Essential Products */
+.essential-products {
+    grid-area: essential-products;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 1em;
+
+    margin-top: 1em;
+    padding: 0 1em;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 1em 0;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+
+
+
+/* || Home Categories */
+.home-categories {
+    grid-area: home-categories;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    row-gap: 2em;
+
+    margin-top: 5em;
+    padding: 0 1em;
+}
+
+.category-item img {
+    width: 100%;
+}
+
+.category-item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* || Home Blog */
+.home-blog {
+    grid-area: home-blog;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    row-gap: 1em;
+
+    margin-top: 5em;
+    padding: 0 1em;
+}
+
+.blog-item {
+    background-image: url(../images/blog-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4.8em 1.6em;
+    text-align: center;
+}
+
+.blog-item:nth-child(2) {
+    background-image: url(../images/blog-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4.8em 1.6em;
+    text-align: center;
+}
+
+
+
+
+/* || Home Benefits */
+.home-benefits {
+    grid-area: home-benefits;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    row-gap: 1em;
+
+    margin-top: 5em;
+    padding: 0 1em;
+}
+
+.benefit-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    text-align: center;
+    margin: 1em;
+}
+
+.benefit-item img {
+    height: 3em;
+}
+
+
+
+
+/* || Call to Action */
+.cta {
+    grid-area: cta;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    margin: 5em 0;
+    padding: 0 1em;
+    border-top: 1px solid #ebb3bc;
+}
+
+.cta form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* || Footer */
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #ebb3bc;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    /* || Hero Banner */
+    .hero-banner > img {
+        width: 100%;
+        max-height: 600px;
+    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+
+
+
+
+    /* || Essential Products */
+    .essential-products {
+        grid-area: essential-products;
+
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: auto;
+        grid-template-areas: 
+            '. product-item-1 product-item-2 product-item-3 product-item-4 .'
+        ;
+        gap: 1em;
+
+        margin-top: 1em;
+        padding: 0 1em;
+    }
+
+    .product-item {
+        grid-area: product-item-1;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        margin: 1em 0;
+    }
+    
+    .product-item:nth-child(2) {
+        grid-area: product-item-2;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .product-item:nth-child(3) {
+        grid-area: product-item-3;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .product-item:nth-child(4) {
+        grid-area: product-item-4;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .product-item img {
+        width: 100%;
+    }
+
+
+
+
+    /* || Home Categories */
+    .home-categories {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+    
+        margin-top: 5em;
+        padding: 0 1em;
+        gap: 1em;
+    }
+
+
+
+
+    /* || Home Blog */
+    .home-blog {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+    
+        margin-top: 5em;
+        padding: 0 1em;
+        gap: 1em;
+    }
+
+
+
+
+    /* || Home Benefits */
+    .home-benefits {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+    
+        margin-top: 5em;
+        padding: 0 1em;
+        gap: 1em;
+    }
+}
+
+/* Bronnen: 
+https://www.youtube.com/watch?v=68O6eOGAGqA&feature=youtu.be
+*/

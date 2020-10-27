@@ -1,36 +1,43 @@
 # Procesverslag
-**Auteur:** -jouw naam-
-
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
+Chehlaa 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
-
+1. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_style_backgroundcolor 
+2. https://www.w3schools.com/html/tryit.asp?filename=tryhtml_youtubeiframe
+3. http://www.simplehtmlguide.com/youtube.php 
+4. https://www.w3schools.com/css/css_form.asp
+5. http://jsfiddle.net/5Gy6K/ 
+6. https://www.youtube.com/watch?v=68O6eOGAGqA&feature=youtu.be
+7. https://www.w3schools.com/cssref/sel_nth-child.asp
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+In het begin vond ik het lastig om weer te coderen na een paar maanden, ik was bepaalde dingen vergeten maar gelukkig bestaat W3 schools. Dit heeft mij echt geholpen. Ook vond ik het moeilijk om een hamburgermenu te maken met javascript voor de mobiele versie. Ik heb javascript gebruikt voor een dark modus button die je aan kan zetten als je op die how to pagina een youtube filmpje kijkt. Ik persoonlijk vind het fijner als ik een filmpje kijk dat de rest van de pagina donker is. Dan gaat de volle focus naar het filmpje. 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![](images/voortgang/web.schermafbdeeling1.jpg)
+![](images/voortgang/web.Schermafbdeeling2.jpg)
+![](images/voortgang/web.Schermafbdeeling3.jpg)
+![](images/voortgang/web.Schermafbdeeling4.jpg)
 
+![](images/voortgang/mobiel.Schermafbdeeling1.jpg)
+![](images/voortgang/mobiel.Schermafbdeeling2.jpg)
+![](images/voortgang/mobiel.Schermafbdeeling3.jpg)
+![](images/voortgang/mobiel.Schermafbdeeling4.jpg)
+![](images/voortgang/mobiel.Schermafbdeeling5.jpg)
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Ik zag dat ik feedback had gekregen van Kris. Mijn code semantisch correcter maken door de divjes vervangen. Dit heb ik gedaan met articles en sections. 
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Ik ben begonnen met research te doen naar grids, ik heb een heel duidelijk youtube filmpje gekeken waarin alles uitgelegd werd. Ik heb er mee geoefend en heb al stuk kunnen coderen op basis van grids. Ook moest ik als feedback van Joost een paar codes in mijn header stoppen. Ik had deze hierbuiten gezet, omdat het erin nietzo goed lukte. 
 
 
 
@@ -38,34 +45,39 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
+Ik heb een begin gemaakt aan mijn site en mijn header vooral gemaakt. Ik vond het lastig om alles precies in zijn plek te plaatsen.
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+- Vragen hoe een hamburgermenu moet? 
+- Vragen hoe grids werken? 
+- Hoe van mobiel naar web werken?
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+- Wij hebben vooral veel in codepen geoefend, omdat niet iedereen het huiswerk daarvan had gemaakt. Ook gaf Joost duidelijk antwoord op vragen. -
 
 
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** blauw
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** responsive
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** Ik maak de website van www.queentarzi.com na. 
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+
+![](images/voortgang/mobiel.styleguideqt.jpg)
+![](images/voortgang/mobiel.qtsite1.jpg)
+![](images/voortgang/mobiel.qtsite2.jpg)
+![](images/voortgang/mobiel.qtsite3.jpg)
+![](images/voortgang/mobiel.qtsite4.jpg)
+![](images/voortgang/mobiel.qtsite5.jpg)
+
 
 **Breakdown-schets(en):**
-
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![](images/voortgang/breakdownschets1.jpg)
+![](images/voortgang/breakdownschets2.jpg)

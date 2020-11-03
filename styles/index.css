@@ -161,6 +161,7 @@
         text-decoration: none;
 
     }
+
  
 /* SHOP CATEGORIES */   
     
@@ -406,7 +407,46 @@
     color: #136207;
     }
 
+    ul {
+        list-style-type: none;
+        text-decoration: none;
+        color: #136207;
+    }
 
+    footer a {
+        text-decoration: none;
+        color: #136207;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 10;
+    }
+
+    footer a:link {
+        text-decoration: none;
+        color: #136207;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: lighter;
+      }
+      
+    footer  a:visited {
+        text-decoration: none;
+        color: #136207;
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+      }
+      
+    footer a:hover {
+        text-decoration: underline;
+        color: #136207;
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+      }
+      
+    footer  a:active {
+        text-decoration: underline;
+        color: #136207;
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+      }
 
 
 

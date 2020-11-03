@@ -42,10 +42,17 @@
             width: 100%;
         }
         
-        dt {
+        .product-item dt {
             font-family: 'Poppins', sans-serif;
-            font-size: 0.8em;
+            font-size: 1.3em;
+            align-content: center;
         }
+
+        .product-item dd {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1em;
+            margin: 0;
+        }       
 
 /* BODY */
     
@@ -72,14 +79,6 @@
         margin-bottom: 20px;
         border-top: 1em solid #ebb3bc
         }
-
-    .welcome {
-        position: absolute;
-        justify-content: center;
-        font-family: 'Shrikhand';
-        font-size: 2.8em;
-        color: #FCF6F5 ;
-    }
     
 
     .logo{
@@ -144,98 +143,6 @@
         align-items : center;
         }
 
-/* ESSENTIAL PRODUCTS */ 
-
-    .item-title {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 0.7em;
-        color: #ebb3bc;
-        text-decoration: none;
-        }
-
-    .favs {
-        font-family: 'Poppins', sans-serif;
-        font-size: 1em;
-        color: #ebb3bc;
-        text-decoration: none;
-
-    }
-
- 
-/* SHOP CATEGORIES */   
-    
-    .category-item-title {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 1.1em;
-        color: #ebb3bc;
-        text-decoration: none;
-        }
-  
-    .category-item-subtext {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        font-size: 0.7em;
-        color: #ebb3bc;
-        text-decoration: none;
-        }   
-  
-/* BLOG CATEGORIES */   
-        
-    .readmore-link {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 0.9em;
-        color: #fff;
-        text-decoration: none;      
-        margin-top: 1.5em;
-        }
-
-/* BENEFIT ICONS */   
-
-    .benefit-heading {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 1em;
-        color: #ebb3bc;
-        text-decoration: none;
-        margin: 0.8em 0;
-        }
-
-/* SIGN UP BUTTON */      
-
-    .cta-heading {
-        font-family: 'Shrikhand', cursive;
-        font-size: 1.3em;
-        color: #ebb3bc;
-        margin-top: 1.5em;
-        }
-
-    .email-input {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        color: rgb(143, 143, 143);
-        font-size: 0.8em;
-        padding: 1em 0.8em;
-        border: 1px solid rgba(0, 0, 0, 0.085);
-        margin-top: 3em;
-        margin-bottom: 1em;
-        }
-
-    .form-btn {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        color: #fff;
-        font-style: italic;
-        font-size: 0.8em;
-
-        background-color: #ebb3bc;
-        border: none;
-        padding: 1em 1em;
-        border-radius: 0.4em;
-        width: 100%;
-        }
 
 
 
@@ -272,8 +179,25 @@
         background-size: cover;
     }
 
+    .banner-text {
+        position: absolute;
+        justify-content: center;
+        font-family: 'Shrikhand';
+        font-size: 1.3em;
+        color: #FCF6F5 ;
+    }
+
 /* ESSENTIAL PRODUCTS */
-    .essential-products {
+
+.item-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    color: #ebb3bc;
+    text-decoration: none;
+    }
+
+.essential-products {
         grid-area: essential-products;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -317,6 +241,23 @@
         flex-direction: column;
     }
 
+        
+    .category-item-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 1.1em;
+        color: #ebb3bc;
+        text-decoration: none;
+        }
+  
+    .category-item-subtext {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 0.7em;
+        color: #ebb3bc;
+        text-decoration: none;
+        }   
+
 /* BLOG CATEGORIES */
 
     .home-blog {
@@ -348,6 +289,16 @@
         text-align: center;
     }
 
+           
+.readmore-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #fff;
+    text-decoration: none;      
+    margin-top: 1.5em;
+    }
+
 /* BENEFIT ICONS */
 
     .home-benefits {
@@ -375,6 +326,16 @@
         height: 3em;
     }
 
+
+.benefit-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: #ebb3bc;
+    text-decoration: none;
+    margin: 0.8em 0;
+    }
+
 /* SIGN UP BUTTON */
 
     .cta {
@@ -395,29 +356,61 @@
         flex-direction: column;
     }
 
+    
+/* SIGN UP BUTTON */      
+
+.cta-heading {
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.3em;
+    color: #ebb3bc;
+    margin-top: 1.5em;
+    }
+
+.email-input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(143, 143, 143);
+    font-size: 0.8em;
+    padding: 1em 0.8em;
+    border: 1px solid rgba(0, 0, 0, 0.085);
+    margin-top: 3em;
+    margin-bottom: 1em;
+    }
+
+.form-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-style: italic;
+    font-size: 0.8em;
+
+    background-color: #ebb3bc;
+    border: none;
+    padding: 1em 1em;
+    border-radius: 0.4em;
+    width: 100%;
+    }
+
 /* FOOTER */
     
     footer {
     display: flex;
     width: 100%;
     flex-direction: column;
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     background-color: #fafbfd;
     color: #136207;
     }
 
-    ul {
-        list-style-type: none;
-        text-decoration: none;
-        color: #136207;
-    }
 
-    footer a {
+    footer ul {
         text-decoration: none;
         color: #136207;
         font-family: 'Poppins', sans-serif; 
-        font-weight: 10;
+        list-style-type: none;
+        text-decoration: none;
+   
     }
 
     footer a:link {
@@ -510,6 +503,14 @@
         background-repeat: no-repeat;
         background-size: cover;
         object-fit: cover;
+    }
+
+    .banner-text {
+        position: absolute;
+        justify-content: center;
+        font-family: 'Shrikhand';
+        font-size: 2.8em;
+        color: #FCF6F5 ;
     }
 
 /* NAVIGATIE */

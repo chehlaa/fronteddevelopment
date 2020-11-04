@@ -442,6 +442,44 @@
       }
 
 
+/*darkmodus*/ 
+
+    button {
+          text-decoration: none;
+          color: white; 
+          background-color: black; 
+          font-family: 'Poppins', sans-serif;
+      }
+
+    button:active {
+        transform: translateX(-2px);
+    }
+    .darkmodus {
+        display: flex; 
+        justify-content: center;
+    }
+
+    .buttondark {
+        justify-content: center;
+    }
+
+    .buttondark {
+        background-color: black;
+    }
+
+    .buttondark button {
+        background: black;
+        color: white;
+    }
+
+    .buttondark p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .buttondark label {
+        color: white;
+    }
 
 
 @media only screen and (min-width: 600px) {
@@ -656,6 +694,8 @@
         }
 
     }
+
+
 
 
 
